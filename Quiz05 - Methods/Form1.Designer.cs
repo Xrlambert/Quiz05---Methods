@@ -92,6 +92,7 @@
             q1Button.TabIndex = 4;
             q1Button.Text = "Code Me";
             q1Button.UseVisualStyleBackColor = false;
+            q1Button.Click += q1Button_Click;
             // 
             // q2Button
             // 
@@ -103,6 +104,7 @@
             q2Button.TabIndex = 7;
             q2Button.Text = "Code Me";
             q2Button.UseVisualStyleBackColor = false;
+            q2Button.Click += q2Button_Click;
             // 
             // label4
             // 
@@ -140,6 +142,7 @@
             q3Button.TabIndex = 11;
             q3Button.Text = "Code Me";
             q3Button.UseVisualStyleBackColor = false;
+            q3Button.Click += q3Button_Click;
             // 
             // label7
             // 

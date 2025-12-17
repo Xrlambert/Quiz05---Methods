@@ -41,6 +41,7 @@
             label1.Size = new Size(351, 167);
             label1.TabIndex = 0;
             label1.Text = resources.GetString("label1.Text");
+            label1.Visible = false;
             // 
             // Form3
             // 
@@ -51,6 +52,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form3";
             Text = "Holiday Bonus";
+            Load += Form3_Load;
             ResumeLayout(false);
         }
 
